@@ -1,6 +1,7 @@
 library(tidyverse)
 library(readxl)
 
+setwd("C:/Users/bborh/OneDrive - The Ohio State University/Fantasy Football/Rookie Ranking/2022 Rookies")
 WR_data <- read_excel("2022_Rookie_Profiles.xlsx", 
                       sheet = "Wide Receivers") %>%
   mutate(Power5_ND=ifelse(Conference %in% c("SEC", "Big Ten", "ACC", "Big 12", "Pac-12") | School == "ND", 
