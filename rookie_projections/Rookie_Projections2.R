@@ -1,15 +1,15 @@
 library(readxl)
 library(tidyverse)
 
-WR_2020 <- read_excel("C:/Users/bborh/OneDrive - The Ohio State University/Fantasy Football/2020_Rookie_Profiles.xlsx", 
-                 sheet = "Wide Receivers")
+WR_2020 <- read_excel("C:/Users/bborh/OneDrive - The Ohio State University/Fantasy Football/Rookie Ranking/2020 Rookies/2020_Rookie_Profiles.xlsx", 
+                      sheet = "Wide Receivers")
 WR_2020$TDPG <- WR_2020$Rec.TDs/WR_2020$Games.Played
 
 wr.lm <- lm(FPPG ~ TDPG + Pick.No, data = WR_2020)
 summary(wr.lm)
 wr.lm$coefficients
 
-WR_2021 <- read_excel("C:/Users/bborh/OneDrive - The Ohio State University/Fantasy Football/2021_Rookie_Profiles.xlsx", 
+WR_2021 <- read_excel("C:/Users/bborh/OneDrive - The Ohio State University/Fantasy Football/Rookie Ranking/2021 Rookies/2021_Rookie_Profiles.xlsx", 
                       sheet = "Wide Receivers")
 WR_2021$TDPG <- WR_2021$Rec.TDs/WR_2021$Games.Played
 
