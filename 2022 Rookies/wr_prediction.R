@@ -15,3 +15,5 @@ coef <- model2$coefficients
 
 WR_data$FP <- coef[1] + coef[2] * WR_data$Top2 + coef[3] * WR_data$Power5_ND + 
   coef[4] * WR_data$Vac.Tar + coef[5] * WR_data$Rec.TDs
+
+view(WR_data)
