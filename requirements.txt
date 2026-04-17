@@ -3,3 +3,7 @@ pandas
 numpy
 nflreadpy
 polars
+pyspark
+sqlalchemy
+duckdb
+pyarrow
