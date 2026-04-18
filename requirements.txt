@@ -7,3 +7,4 @@ pyspark
 sqlalchemy
 duckdb
 pyarrow
+fastexcel
