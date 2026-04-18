@@ -9,8 +9,6 @@ stats = nfl.load_player_stats(seasons=seasons)
 players = nfl.load_players()
 
 
-
-
 result = duckdb.query("""
     with aggregated as (
     select 
@@ -34,7 +32,7 @@ result = duckdb.query("""
         a.* exclude (player_id),
         round(a.fantasy_points/a.games_played, 2) as FPPG,
         round(a.fantasy_points_ppr/a.games_played, 2) as FPPG_PPR,
-        dense_rank() over (
+        rank() over (
             partition by a.season
             order by a.fantasy_points_ppr desc
                 ) as season_rank,
@@ -53,6 +51,7 @@ result = duckdb.query("""
         a.fantasy_points_ppr desc
 """).pl()
 
-pl.Config.set_tbl_rows(-1)
+
+pl.Config.set_tbl_cols(-1)
 pl.Config.set_tbl_rows(-1)
 print(result)
