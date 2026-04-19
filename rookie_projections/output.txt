@@ -1,0 +1,16 @@
+Column names for the 2020 season: 
+ ['Player', 'School', 'Pick.No', 'Team', 'Completions', 'Pass.Atts', 'CMP%', 'Pass.Yds', 'Pass.YPA', 'Pass.TD', 'TD%', 'INT', 'Rate', 'Rush.Att', 'Rush.Yds', 'Rush.YPA', 'Rush.TDs', 'DOB', 'Age', 'Height (in.)', 'Weight', 'NFL.Games', 'Snaps', 'FP', 'FPPG', 'FPPS']
+
+
+Column names for the 2021 season: 
+ ['Player', 'School', 'Pick.No', 'Team', 'College.Games', 'Completions', 'Pass.Atts', 'CMP%', 'Pass.Yds', 'Pass.YPA', 'Pass.TD', 'TD%', 'INT', 'QBR', 'Rush.Att', 'Rush.Yds', 'Rush.YPA', 'Rush.TD', 'Fumbles', 'DOB', 'Age', 'Height (in.)', 'Weight', 'Breakout.Age', 'NFL.Games', 'Snaps', 'FP', 'FPPG', 'FPPS']
+
+
+Column names for the 2022 season: 
+ ['Player', 'School', 'Conference', 'Pick.No', 'Round', 'Team', 'Games.Played', 'Completions', 'Pass.Atts', 'CMP%', 'Pass.Yds', 'Pass.Yds_Game', 'Pass.YPA', 'Pass.TD', 'TD%', 'INT', 'QBR', 'Rush.Att', 'Rush.Yds', 'Rush.Yds_Game', 'Rush.YPA', 'Rush.TD', 'Fumbles', 'Col_FPPG', 'DOB', 'Draft.Day', 'Draft.Age', 'Height (in.)', 'Weight', 'Breakout.Age', 'FP']
+
+
+Column names for the 2024 season: 
+ ['Player', 'School', 'DraftNumber', 'Team', 'College Games', 'Receptions', 'Rec.Yds', 'Rec.Yds_Game', 'YPC', 'Rec.Long', 'Rec.TDs', 'Rush.Atts', 'Rush.Yds', 'Rush.YPA', 'Rush.TDs', 'Fumbles', 'Col_FPPG', 'Rec.Per', 'Rec.Yds.Per', 'Rec.TDs.Per', 'Dom.Per', 'Vac.Tar', 'Age', 'Height (in.)', 'Weight', 'Breakout Age']
+
+
