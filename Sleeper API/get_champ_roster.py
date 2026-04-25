@@ -20,18 +20,23 @@ def get_league_ids(user_id, seasons):
 
     return league_ids
 
-# def get_playoff_bracket(league_ids):
-#     playoff_brackets = []
-#     for league_id in league_ids:
-#         full_url = f"{BASE}/league/{league_id}/winners_bracket"
-#         bracket = requests.get(full_url).json()
+def get_playoff_bracket(league_ids, seasons):
+    playoff_brackets = {}
+    for season in seasons:
+        season_str = str(season)
+        league_id = league_ids[season]
+        full_url = f"{BASE}/league/{league_id}/winners_bracket"
+        bracket = requests.get(full_url).json()
+        playoff_brackets[season] = bracket
         
+    return playoff_brackets
 
 
 
 user_id = get_user_id("borhart9")
-print(user_id)
 
-seasons = [2019, 2020, 2021, 2022, 2023, 2024, 2025]
+
+seasons = [2022, 2023, 2024, 2025]
 league_ids = get_league_ids(user_id, seasons=seasons)
-print(league_ids)
+
+brackets = get_playoff_bracket(league_ids, seasons)
