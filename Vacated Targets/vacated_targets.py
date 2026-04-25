@@ -55,6 +55,7 @@ results = duckdb.query("""
         pt.season,
         pt.targets as player_targets,
         post.targets as position_targets,
+        tt.targets as team_targets,
         round((pt.targets/post.targets), 2) as position_target_share,
         round((pt.targets/tt.targets), 2) as team_target_share
     from
@@ -105,8 +106,10 @@ position_vacated_targets = duckdb.query("""
 """)
 
 team_vacated_targets = duckdb.query("""
-    with aggregated as (select 
-        r.player, r.player_id, r.player_targets, r.team, r.position, rst.team, (r.season + 1) as season
+    with aggregated as (
+        select 
+            r.player, r.player_id, r.player_targets, r.team_targets, r.position_targets, 
+                r.team, r.position, rst.team, (r.season + 1) as season
     from
         results r
         left join on_roster rst
@@ -119,15 +122,16 @@ team_vacated_targets = duckdb.query("""
         r.player_targets desc
     )
     select  
-        sum(player_targets) as vacated_targets, team, season
+        sum(player_targets) as vacated_targets, max(team_targets) as team_targets, 
+            max(position_targets) as position_targets, team, season, position
     from
         aggregated a
     group by 
-        team, season
+        team, season, position
     order by 
         vacated_targets desc
 """)
 
 pl.Config.set_tbl_cols(-1)
 pl.Config.set_tbl_rows(-1)
-print(team_vacated_targets)
+
