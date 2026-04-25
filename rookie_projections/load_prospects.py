@@ -1,9 +1,11 @@
 import polars as pl 
 
 def load_prospects(season):
-    source = f"{season} Rookies\\{season} Rookie WR.xlsx"
+    source = f"rookie_projections\\WR Prospects.xlsx"
+    sheet = str(season)
     df = pl.read_excel(
-        source=source)
+        source=source, 
+        sheet_name=sheet)
     return df
 
 seasons = [2020, 2021, 2022, 2024]
