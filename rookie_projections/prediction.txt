@@ -1,0 +1,33 @@
+                    Player Team  Rec_TDs  Pick_Num  Vac_Tar  top24_indicator
+0             Carnell Tate  TEN        9         4       16         0.069322
+1             Jordyn Tyson   NO       10         8       19         0.103189
+2              Makai Lemon  PHI       11        20        8         0.052686
+3            KC Concepcion  CLE       10        24        6         0.033621
+4          Omar Cooper Jr.  NYJ       13        30       17         0.139268
+5       De'Zhaun Stribling   SF        6        33       27         0.049304
+6            Denzel Boston  CLE       11        39        6         0.035586
+7           Germie Bernard  PIT        7        47       18         0.027566
+8         Antonio Williams  WAS       11        71       32         0.143954
+9           Malachi Fields  NYG        5        74       31         0.029786
+10           Caleb Douglas  MIA        7        75       36         0.069581
+11        Zachariah Branch  ATL        6        79       23         0.020052
+12            Ja'Kobi Lane  BAL       12        80       12         0.041275
+13       Chris Brazzell II  CAR        9        83       18         0.028538
+14               Ted Hurst   TB        9        84       11         0.016833
+15           Zavion Thomas  CHI        4        89       30         0.017500
+16              Chris Bell  MIA        6        94       36         0.042406
+17         Brenen Thompson  LAC        6       105       24         0.015221
+18          Elijah Sarratt  BAL       15       115       12         0.055622
+19            Kaden Wetjen  PIT        1       121       18         0.002108
+20             Skyler Bell  BUF       13       125        9         0.023605
+21             Bryce Lance   NO        0       136       19         0.001422
+22            Colbie Young  CIN        5       140        0         0.001209
+23           Reggie Virgil  ARI        9       143        8         0.006059
+24            Kendrick Law  DET        3       168        7         0.000823
+25       Kevin Coleman Jr.  MIA        6       177       36         0.014027
+26            Barion Brown   NO        4       190       19         0.001953
+27            Josh Cameron  JAX        9       191       12         0.004252
+28            Malik Benson   LV        6       195       18         0.002866
+29              CJ Daniels  LAR        7       197        7         0.001590
+30  Emmanuel Henderson Jr.  SEA        5       199        2         0.000627
+31             Deion Burks  IND        4       254       21         0.000947
