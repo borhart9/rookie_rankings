@@ -1,0 +1,24 @@
+Column names for the 2020 season: 
+ ['Player', 'School', 'Pick_Num', 'Team', 'GP', 'Rec', 'Rec_Yds', 'Rec_Yds_Game', 'YPC', 'Rec_TDs', 'Rush_Att', 'Rush_Yds', 'Rush_YPA', 'Rush_TDs', 'Fumbles', 'Col_FPPG', 'Rec_Percentage', 'TD_Percentage', 'Dominator', 'Vac_Tar', 'Age', 'Height']
+
+
+Column names for the 2021 season: 
+ ['Player', 'School', 'Pick_Num', 'Team', 'GP', 'Rec', 'Rec_Yds', 'Rec_Yds_Game', 'YPC', 'Rec_TDs', 'Rush_Att', 'Rush_Yds', 'Rush_YPA', 'Rush_TDs', 'Fumbles', 'Col_FPPG', 'Rec_Percentage', 'TD_Percentage', 'Dominator', 'Vac_Tar', 'Age', 'Height', 'Breakout Age']
+
+
+Column names for the 2022 season: 
+ ['Player', 'School', 'Pick_Num', 'Team', 'GP', 'Rec', 'Rec_Yds', 'Rec_Yds_Game', 'YPC', 'Rec_TDs', 'Rush_Att', 'Rush_Yds', 'Rush_YPA', 'Rush_TDs', 'Fumbles', 'Col_FPPG', 'Rec_Percentage', 'TD_Percentage', 'Dominator', 'Vac_Tar', 'Age', 'Height', 'Breakout Age']
+
+
+Column names for the 2024 season: 
+ ['Player', 'School', 'Pick_Num', 'Team', 'GP', 'Rec', 'Rec_Yds', 'Rec_Yds_Game', 'YPC', 'Rec_TDs', 'Rush_Att', 'Rush_Yds', 'Rush_YPA', 'Rush_TDs', 'Fumbles', 'Col_FPPG', 'Rec_Percentage', 'TD_Percentage', 'Dominator', 'Vac_Tar', 'Age', 'Height', 'Breakout Age']
+
+
+Column names for the 2025 season: 
+ ['Player', 'School', 'Pick_Num', 'Team', 'GP', 'Rec', 'Rec_Yds', 'Rec_Yds_Game', 'YPC', 'Rec_TDs', 'Rush_Att', 'Rush_Yds', 'Rush_YPA', 'Rush_TDs', 'Fumbles', 'Col_FPPG', 'Rec_Percentage', 'TD_Percentage', 'Dominator', 'Vac_Tar', 'Age', 'Height', 'Breakout Age']
+
+
+Column names for the 2026 season: 
+ ['Player', 'School', 'Pick_Num', 'Team', 'GP', 'Rec', 'Rec_Yds', 'Rec_Yds_Game', 'YPC', 'Rec_TDs', 'Rush_Att', 'Rush_Yds', 'Rush_YPA', 'Rush_TDs', 'Fumbles', 'Col_FPPG', 'Rec_Percentage', 'TD_Percentage', 'Dominator', 'Vac_Tar', 'Age', 'Height', 'Breakout Age']
+
+

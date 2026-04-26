@@ -8,7 +8,7 @@ def load_prospects(season):
         sheet_name=sheet)
     return df
 
-seasons = [2020, 2021, 2022, 2024]
+seasons = [2020, 2021, 2022, 2024, 2025, 2026]
 
 prospect_df = {}
 
@@ -17,4 +17,5 @@ for season in seasons:
     df_name = f"prospect_{season}"
     prospect_df[df_name] = df
     print(f"Column names for the {season} season: \n {df.columns}\n\n")
+
 
