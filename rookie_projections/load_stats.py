@@ -60,7 +60,7 @@ result = duckdb.query("""
         where
             temp.year_in_league = '1' or temp.year_in_league = 'Rookie') temp2
     where
-        (season = 2021)
+        (season = 2021 and year_in_league = 'Rookie')
         or (season = 2022)
         or (season = 2023 and year_in_league = '1')
         or (season = 2024 and year_in_league = 'Rookie')
