@@ -1,6 +1,6 @@
 library(readxl)
 library(tidyverse)
-Rookies <- read_excel("C:/Users/bborh/OneDrive - The Ohio State University/Fantasy Football/2020_Rookie_Profiles.xlsx", 
+Rookies <- read_excel("Rookie Ranking/2020_Rookie_Profiles.xlsx", 
                       sheet = "Running Backs")
 
 
